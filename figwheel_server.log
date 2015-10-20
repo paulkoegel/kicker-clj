@@ -1,0 +1,172 @@
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.221 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /kicker_clj/core.js
+notifying browser that file changed:  /kicker_clj/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.181 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.165 seconds.[0m
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.163 seconds.[0m
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.145 seconds.[0m
+notifying browser that file changed:  /kicker_clj/core.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.428 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.751 seconds.[0m
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 1.213 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/kicker_clj/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4403)
+    cljs.compiler$compile_file$fn__3088.invoke (compiler.clj:1140)
+    cljs.compiler$compile_file.invoke (compiler.clj:1105)
+    cljs.compiler$compile_root.invoke (compiler.clj:1175)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3462$fn__3463.invoke (closure.clj:409)
+    cljs.closure$eval3398$fn__3399$G__3389__3406.invoke (closure.clj:316)
+    cljs.closure$eval3449$fn__3450.invoke (closure.clj:423)
+    cljs.closure$eval3398$fn__3399$G__3389__3406.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4245.invoke (core.clj:2557)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:484)
+    clojure.core$seq.invoke (core.clj:133)
+    clojure.core$apply.invoke (core.clj:624)
+    clojure.core$mapcat.doInvoke (core.clj:2586)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1437)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17512.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__17509.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__17322.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17328.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17328.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17328.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17331.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17325.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__17343.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/kicker_clj/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4403)
+    cljs.compiler$compile_file$fn__3088.invoke (compiler.clj:1140)
+    cljs.compiler$compile_file.invoke (compiler.clj:1105)
+    cljs.compiler$compile_root.invoke (compiler.clj:1175)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3462$fn__3463.invoke (closure.clj:409)
+    cljs.closure$eval3398$fn__3399$G__3389__3406.invoke (closure.clj:316)
+    cljs.closure$eval3449$fn__3450.invoke (closure.clj:423)
+    cljs.closure$eval3398$fn__3399$G__3389__3406.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4245.invoke (core.clj:2557)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:484)
+    clojure.core$seq.invoke (core.clj:133)
+    clojure.core$apply.invoke (core.clj:624)
+    clojure.core$mapcat.doInvoke (core.clj:2586)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1437)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17512.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__17509.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__17322.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17328.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17328.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17328.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17331.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17325.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__17343.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/kicker_clj/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4403)
+    cljs.compiler$compile_file$fn__3088.invoke (compiler.clj:1140)
+    cljs.compiler$compile_file.invoke (compiler.clj:1105)
+    cljs.compiler$compile_root.invoke (compiler.clj:1175)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3462$fn__3463.invoke (closure.clj:409)
+    cljs.closure$eval3398$fn__3399$G__3389__3406.invoke (closure.clj:316)
+    cljs.closure$eval3449$fn__3450.invoke (closure.clj:423)
+    cljs.closure$eval3398$fn__3399$G__3389__3406.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4245.invoke (core.clj:2557)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:484)
+    clojure.core$seq.invoke (core.clj:133)
+    clojure.core$apply.invoke (core.clj:624)
+    clojure.core$mapcat.doInvoke (core.clj:2586)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1437)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17512.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__17509.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__17322.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17328.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17328.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17328.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17331.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17325.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__17343.invoke (auto.clj:103)
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Required namespace not provided for cljs-http.client
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.364 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.273 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.461 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 2.234 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.629 seconds.[0m
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.515 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.33 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.33 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.463 seconds.[0m
+notifying browser that file changed:  /kicker_clj/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.279 seconds.[0m
+notifying browser that file changed:  /kicker_clj/core.js
