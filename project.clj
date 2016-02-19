@@ -6,7 +6,7 @@
 
   :source-paths ["src/clj" "src/cljs"]
 
-  :dependencies [[org.clojure/clojure "1.6.0"]
+  :dependencies [[org.clojure/clojure "1.7.0"]
                  [ring-server "0.4.0"]
                  [cljsjs/react "0.13.1-0"]
                  [reagent "0.5.0"]
@@ -21,7 +21,7 @@
                  [selmer "0.8.2"]
                  [environ "1.0.0"]
                  [secretary "1.2.3"]
-                 [com.datomic/datomic-free "0.9.5206"]]
+                 [com.datomic/datomic-free "0.9.5350"]]
 
   :plugins [[lein-cljsbuild "1.0.4"]
             [lein-environ "1.0.0"]
